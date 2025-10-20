@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pendidik Hebat",
+  "name": "Menjadi Pendidik Hebat, Sedekat Sahabat",
+  "description": "Pelatihan inspiratif untuk para pendidik dan pengasuh",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,9 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#14b8a6",
+  "background_color": "#ffffff",
+  "lang": "id",
+  "scope": "/",
+  "orientation": "portrait-primary"
 }
