@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
+/* Custom Teal Color #13b2a1 */
+:root {
+  --custom-teal: #13b2a1;
+  --custom-teal-dark: #0f8f81;
+  --custom-teal-darker: #0c7066;
+  --custom-teal-light: #5ec9bd;
+  --custom-teal-lighter: #9fddd6;
+  --custom-teal-50: #e6f7f5;
+  --custom-teal-100: #ccefeb;
+}
+
 /* Custom styles for smooth scrolling and performance optimizations */
 html {
   scroll-behavior: smooth;
@@ -14,7 +25,7 @@ body {
 
 /* Custom button styles that will work with Tailwind CDN */
 .btn-primary {
-  background: linear-gradient(135deg, #10b981, #059669);
+  background: linear-gradient(135deg, #13b2a1, #0f8f81);
   color: white;
   font-weight: 600;
   padding: 0.75rem 1.5rem;
@@ -23,13 +34,13 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   transform: scale(1);
-  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 4px 15px rgba(19, 178, 161, 0.3);
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #059669, #047857);
+  background: linear-gradient(135deg, #0f8f81, #0c7066);
   transform: scale(1.05);
-  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
+  box-shadow: 0 8px 25px rgba(19, 178, 161, 0.4);
 }
 
 .btn-secondary {
@@ -45,7 +56,39 @@ body {
 
 .btn-secondary:hover {
   background-color: white;
-  color: #14b8a6;
+  color: #13b2a1;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
 }
+
+/* Custom Teal Utility Classes */
+.bg-custom-teal { background-color: #13b2a1; }
+.bg-custom-teal-dark { background-color: #0f8f81; }
+.bg-custom-teal-darker { background-color: #0c7066; }
+.bg-custom-teal-light { background-color: #5ec9bd; }
+.bg-custom-teal-50 { background-color: #e6f7f5; }
+.bg-custom-teal-100 { background-color: #ccefeb; }
+
+.text-custom-teal { color: #13b2a1; }
+.text-custom-teal-dark { color: #0f8f81; }
+.text-custom-teal-light { color: #5ec9bd; }
+
+.border-custom-teal { border-color: #13b2a1; }
+.border-custom-teal-light { border-color: #5ec9bd; }
+
+/* Gradients with custom teal */
+.bg-gradient-custom-teal { 
+  background: linear-gradient(to bottom right, #e6f7f5, #ccefeb);
+}
+.bg-gradient-custom-teal-dark { 
+  background: linear-gradient(to bottom right, #0c7066, #0a5c53, #084843);
+}
+
+/* Dark theme variations */
+.bg-custom-teal-700 { background-color: #0d8c7d; }
+.bg-custom-teal-800 { background-color: #0a6d62; }
+.bg-custom-teal-900 { background-color: #084e47; }
+
+.text-custom-teal-100 { color: #ccefeb; }
+.text-custom-teal-400 { color: #5ec9bd; }
+.text-custom-teal-600 { color: #0f8f81; }
