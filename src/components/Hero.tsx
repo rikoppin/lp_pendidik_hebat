@@ -3,7 +3,16 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden" style={{background: 'linear-gradient(to bottom right, #13b2a1, #0f8f81, #0c7066)'}}>
-      {/* Background Image with Overlay */}
+      {/* Decorative Background Image - Very Subtle */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+        style={{
+          backgroundImage: `url('${process.env.PUBLIC_URL}/images/backround-hero.png')`,
+          mixBlendMode: 'soft-light'
+        }}
+      />
+      
+      {/* Background Pattern with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
         style={{
