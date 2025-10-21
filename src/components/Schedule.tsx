@@ -8,8 +8,8 @@ const Schedule: React.FC = () => {
         <svg className="w-full h-full" viewBox="0 0 60 60" fill="none">
           <defs>
             <pattern id="schedule-grid" width="30" height="30" patternUnits="userSpaceOnUse">
-              <path d="M15 5v20M5 15h20" stroke="currentColor" strokeWidth="0.5" className="text-blue-600"/>
-              <circle cx="15" cy="15" r="2" fill="currentColor" className="text-purple-600"/>
+              <path d="M15 5v20M5 15h20" stroke="currentColor" strokeWidth="0.5" className="text-teal-600"/>
+              <circle cx="15" cy="15" r="2" fill="currentColor" className="text-yellow-400"/>
             </pattern>
           </defs>
           <rect width="60" height="60" fill="url(#schedule-grid)" />
@@ -27,7 +27,7 @@ const Schedule: React.FC = () => {
               Pelatihan ini dirancang dalam dua sesi komprehensif yang saling melengkapi, memberikan Anda fondasi kuat untuk menjadi pendidik yang lebih
               efektif dan bahagia. Setiap sesi berlangsung selama 90 menit dengan materi yang padat namun mudah dipahami.
             </p>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full mt-6"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-teal-400 to-teal-600 mx-auto rounded-full mt-6"></div>
           </div>
 
           {/* Schedule Grid */}
@@ -35,7 +35,7 @@ const Schedule: React.FC = () => {
             {/* Session 1 */}
             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden group hover:shadow-2xl transition-all duration-300">
               {/* Session Header */}
-              <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-8 text-white">
+              <div className="bg-gradient-to-r from-teal-500 to-teal-600 p-8 text-white">
                 <div className="flex items-center justify-between mb-4">
                   <span className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold">
                     Sesi 1
@@ -77,19 +77,19 @@ const Schedule: React.FC = () => {
                   <h4 className="font-bold text-gray-900 mb-3">Materi yang akan dipelajari:</h4>
                   <div className="space-y-3">
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-teal-500 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-700">Teknik self-awareness dan mindfulness</span>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-teal-500 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-700">Strategi manajemen stress untuk pendidik</span>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-teal-500 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-700">Membangun resiliensi emosional</span>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-teal-500 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-700">Praktik self-care yang berkelanjutan</span>
                     </div>
                   </div>
@@ -100,7 +100,7 @@ const Schedule: React.FC = () => {
             {/* Session 2 */}
             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden group hover:shadow-2xl transition-all duration-300">
               {/* Session Header */}
-              <div className="bg-gradient-to-r from-purple-600 to-purple-700 p-8 text-white">
+              <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 p-8 text-white">
                 <div className="flex items-center justify-between mb-4">
                   <span className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold">
                     Sesi 2
@@ -142,19 +142,19 @@ const Schedule: React.FC = () => {
                   <h4 className="font-bold text-gray-900 mb-3">Materi yang akan dipelajari:</h4>
                   <div className="space-y-3">
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-purple-600 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-700">Konsep keseimbangan dalam Islam</span>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-purple-600 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-700">Work-life balance untuk pendidik</span>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-purple-600 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-700">Membangun kebahagiaan autentik</span>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-purple-600 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-700">Menemukan makna dalam profesi</span>
                     </div>
                   </div>
@@ -164,9 +164,9 @@ const Schedule: React.FC = () => {
           </div>
 
           {/* Platform Info */}
-          <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 border border-green-200/50">
+          <div className="bg-gradient-to-r from-teal-50 to-yellow-50 rounded-2xl p-8 border border-teal-200/50">
             <div className="flex items-center justify-center space-x-4 text-center">
-              <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center flex-shrink-0">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
                 </svg>
