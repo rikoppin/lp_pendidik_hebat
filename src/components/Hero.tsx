@@ -48,35 +48,35 @@ const Hero: React.FC = () => {
           {/* Training Schedule Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/15 transition-all duration-300">
-              <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center">
-                  <svg className="w-5 h-5 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
+              <div className="flex flex-col items-center text-center space-y-3 mb-4">
+                <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <div>
-                  <p className="text-white font-bold">JUMAT, 31 OKTOBER 2025</p>
+                  <p className="text-white font-bold text-base">JUMAT, 31 OKTOBER 2025</p>
                   <p className="text-white/80 text-sm">08.00 - 09.30 WIB</p>
                 </div>
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Manajemen Diri Pengasuhan</h3>
-              <p className="text-white/70 text-sm">Membangun fondasi kuat dalam pengelolaan diri sebagai pendidik</p>
+              <h3 className="text-lg font-semibold text-white mb-2 text-center">Manajemen Diri Pengasuhan</h3>
+              <p className="text-white/70 text-sm text-center">Membangun fondasi kuat dalam pengelolaan diri sebagai pendidik</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/15 transition-all duration-300">
-              <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center">
-                  <svg className="w-5 h-5 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
+              <div className="flex flex-col items-center text-center space-y-3 mb-4">
+                <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <div>
-                  <p className="text-white font-bold">SABTU, 01 NOVEMBER 2025</p>
+                  <p className="text-white font-bold text-base">SABTU, 01 NOVEMBER 2025</p>
                   <p className="text-white/80 text-sm">08.00 - 09.30 WIB</p>
                 </div>
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Psikologi Keseimbangan</h3>
-              <p className="text-white/70 text-sm">Mencapai keseimbangan emosional dalam proses mendidik</p>
+              <h3 className="text-lg font-semibold text-white mb-2 text-center">Psikologi Keseimbangan</h3>
+              <p className="text-white/70 text-sm text-center">Mencapai keseimbangan emosional dalam proses mendidik</p>
             </div>
           </div>
 
