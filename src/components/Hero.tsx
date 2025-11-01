@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Bergabunglah dalam pelatihan inspiratif yang dirancang khusus untuk para pendidik 
+              Pelatihan inspiratif yang telah sukses diselenggarakan untuk para pendidik 
               dan pengasuh yang ingin tumbuh menjadi pribadi yang kuat, tenang, dan penuh makna.
             </p>
           </div>
@@ -89,16 +89,21 @@ const Hero: React.FC = () => {
             </div>
           </div>
 
+          {/* Event Status Badge */}
+          <div className="flex justify-center">
+            <div className="inline-flex items-center space-x-3 bg-white/20 backdrop-blur-md px-8 py-4 rounded-full border-2 border-white/30">
+              <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
+              <span className="text-white font-bold text-lg">Pelatihan Telah Terlaksana dengan Sukses</span>
+              <svg className="w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+            </div>
+          </div>
+
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center max-w-md mx-auto">
-            <button className="btn-primary text-lg py-4 px-8 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl">
-              <span>Daftar Sekarang</span>
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </button>
             <button className="btn-secondary text-lg py-4 px-8 flex items-center justify-center space-x-2">
-              <span>Hubungi Kami</span>
+              <span>Hubungi Kami untuk Acara Mendatang</span>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>

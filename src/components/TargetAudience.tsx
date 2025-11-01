@@ -141,11 +141,8 @@ const TargetAudience: React.FC = () => {
               
               {/* Call to Action */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button className="bg-yellow-300 hover:bg-yellow-400 text-gray-900 font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
-                  Daftar Sekarang
-                </button>
                 <button className="border-2 border-white text-white hover:bg-white font-bold py-4 px-8 rounded-full transition-all duration-300" style={{['--hover-text-color' as any]: '#119d8e'}}>
-                  Konsultasi Gratis
+                  Hubungi Kami
                 </button>
               </div>
             </div>

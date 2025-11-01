@@ -25,142 +25,71 @@ const Registration: React.FC = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Jangan Lewatkan Kesempatan Emas Ini!
+              Pelatihan Telah Terlaksana dengan Sukses!
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Kuota peserta sangat terbatas untuk memastikan kualitas interaksi dan pembelajaran yang optimal. Segera daftarkan diri Anda sebelum
-              kehabisan tempat. Ini adalah kesempatan langka untuk belajar langsung dari pakar nasional dengan investasi yang sangat terjangkau.
+              Terima kasih kepada 100+ peserta yang telah bergabung dalam pelatihan "Menjadi Pendidik Hebat Sedekat Sahabat". 
+              Kami berkomitmen untuk terus menghadirkan program-program berkualitas untuk pengembangan pendidik dan pengasuh di Indonesia.
             </p>
             <div className="w-24 h-1 mx-auto rounded-full mt-6" style={{background: 'linear-gradient(to right, #13b2a1, #fbbf24)'}}></div>
           </div>
 
-          {/* Registration Steps */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-            {/* Step 1: Isi Formulir */}
-            <div className="bg-white rounded-3xl p-8 shadow-xl border-2 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group relative" style={{borderColor: '#13b2a1'}}>
-              {/* Step Number */}
-              <div className="absolute -top-4 -left-4">
-                <div className="w-12 h-12 bg-custom-teal rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-xl">1</span>
-                </div>
-              </div>
-
-              <div className="text-center pt-4">
-                {/* Icon */}
-                <div className="w-16 h-16 bg-custom-teal rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          {/* Contact Info for Future Events */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* Contact Card 1 */}
+            <div className="bg-white rounded-3xl p-8 shadow-xl border-2 hover:shadow-2xl transition-all duration-300 group" style={{borderColor: '#13b2a1'}}>
+              <div className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-custom-teal to-custom-teal-dark rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.515z"/>
                   </svg>
                 </div>
-
-                {/* Title */}
-                <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-                  Isi Formulir
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  Hubungi via WhatsApp
                 </h3>
-
-                {/* Description */}
-                <p className="text-gray-600 leading-relaxed">
-                  Lengkapi formulir pendaftaran online dengan data diri Anda
+                <p className="text-gray-600 leading-relaxed mb-6">
+                  Dapatkan informasi terbaru tentang pelatihan mendatang dan program-program kami lainnya
                 </p>
+                <button className="bg-custom-teal text-white px-8 py-3 rounded-full font-semibold hover:bg-custom-teal-dark transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 mx-auto">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.515z"/>
+                  </svg>
+                  <span>Chat Sekarang</span>
+                </button>
               </div>
             </div>
 
-            {/* Step 2: Lakukan Pembayaran */}
-            <div className="bg-white rounded-3xl p-8 shadow-xl border-2 border-yellow-400 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group relative">
-              {/* Step Number */}
-              <div className="absolute -top-4 -left-4">
-                <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-gray-900 font-bold text-xl">2</span>
-                </div>
-              </div>
-
-              <div className="text-center pt-4">
-                {/* Icon */}
-                <div className="w-16 h-16 bg-yellow-400 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-8 h-8 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+            {/* Contact Card 2 */}
+            <div className="bg-white rounded-3xl p-8 shadow-xl border-2 border-yellow-400 hover:shadow-2xl transition-all duration-300 group">
+              <div className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <svg className="w-10 h-10 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-
-                {/* Title */}
-                <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-                  Lakukan Pembayaran
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  Email Kami
                 </h3>
-
-                {/* Description */}
-                <p className="text-gray-600 leading-relaxed">
-                  Transfer sesuai paket yang dipilih ke rekening yang tertera
+                <p className="text-gray-600 leading-relaxed mb-6">
+                  Kirimkan pertanyaan atau permintaan informasi melalui email untuk respon yang lebih detail
                 </p>
-              </div>
-            </div>
-
-            {/* Step 3: Konfirmasi */}
-            <div className="bg-white rounded-3xl p-8 shadow-xl border-2 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group relative" style={{borderColor: '#13b2a1'}}>
-              {/* Step Number */}
-              <div className="absolute -top-4 -left-4">
-                <div className="w-12 h-12 bg-custom-teal rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-xl">3</span>
-                </div>
-              </div>
-
-              <div className="text-center pt-4">
-                {/* Icon */}
-                <div className="w-16 h-16 bg-custom-teal rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-
-                {/* Title */}
-                <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-                  Konfirmasi
-                </h3>
-
-                {/* Description */}
-                <p className="text-gray-600 leading-relaxed">
-                  Kirim bukti transfer dan tunggu konfirmasi dari tim kami
-                </p>
-              </div>
-            </div>
-
-            {/* Step 4: Terima Link Zoom */}
-            <div className="bg-white rounded-3xl p-8 shadow-xl border-2 border-yellow-400 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group relative">
-              {/* Step Number */}
-              <div className="absolute -top-4 -left-4">
-                <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-gray-900 font-bold text-xl">4</span>
-                </div>
-              </div>
-
-              <div className="text-center pt-4">
-                {/* Icon */}
-                <div className="w-16 h-16 bg-yellow-400 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <svg className="w-8 h-8 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                  </svg>
-                </div>
-
-                {/* Title */}
-                <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-                  Terima Link Zoom
-                </h3>
-
-                {/* Description */}
-                <p className="text-gray-600 leading-relaxed">
-                  Dapatkan link meeting dan materi persiapan via email/WhatsApp
-                </p>
+                <button className="bg-yellow-400 text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105">
+                  Kirim Email
+                </button>
               </div>
             </div>
           </div>
 
-          {/* CTA Button */}
-          <div className="text-center">
-            <button className="btn-primary text-lg px-12 py-5">
-              Daftar Sekarang & Amankan Tempat Anda!
-            </button>
+          {/* Bottom Note */}
+          <div className="mt-12 text-center max-w-3xl mx-auto">
+            <div className="bg-white/50 backdrop-blur-sm rounded-2xl p-6 border border-custom-teal/20">
+              <p className="text-gray-700 leading-relaxed">
+                <strong className="text-custom-teal">Konsorsium Pendidikan Islam Internasional (KOPIN)</strong> berkomitmen 
+                untuk terus menghadirkan pelatihan berkualitas bagi para pendidik dan pengasuh. 
+                Nantikan program-program inspiratif kami selanjutnya!
+              </p>
+            </div>
           </div>
-
-
         </div>
       </div>
     </section>

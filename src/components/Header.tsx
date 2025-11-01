@@ -28,8 +28,8 @@ const Header: React.FC = () => {
             <a href="#kontak" className="text-gray-600 hover:text-teal-600 transition-colors">
               Kontak
             </a>
-            <button className="btn-primary">
-              Daftar Sekarang
+            <button className="bg-custom-teal text-white px-6 py-2 rounded-full font-semibold hover:bg-custom-teal-dark transition-all duration-300">
+              Hubungi Kami
             </button>
           </nav>
 
@@ -76,8 +76,8 @@ const Header: React.FC = () => {
               <a href="#kontak" className="text-gray-600 hover:text-teal-600 transition-colors">
                 Kontak
               </a>
-              <button className="btn-primary w-full mt-4">
-                Daftar Sekarang
+              <button className="bg-custom-teal text-white px-6 py-3 rounded-full font-semibold hover:bg-custom-teal-dark transition-all duration-300 w-full mt-4">
+                Hubungi Kami
               </button>
             </div>
           </div>
