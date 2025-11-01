@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import WhyDifferent from './components/WhyDifferent';
 import Speaker from './components/Speaker';
+import Article from './components/Article';
 import Schedule from './components/Schedule';
 import Pricing from './components/Pricing';
 import Benefits from './components/Benefits';
@@ -20,6 +21,7 @@ function App() {
       <Hero />
       <WhyDifferent />
       <Speaker />
+      <Article />
       <Schedule />
       <Pricing />
       <Benefits />
